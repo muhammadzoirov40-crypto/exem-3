@@ -121,7 +121,8 @@ button img {
     margin: 5px 0px;
 }
 
-.ce,.paq2 {
+.ce,
+.paq2 {
     display: flex;
 }
 
@@ -168,10 +169,12 @@ button img {
     right: 165px;
     height: 200px;
 }
-.paq2{
+
+.paq2 {
     margin-left: 150px;
 }
-.paq2 p{
+
+.paq2 p {
     margin: 0px 51px;
 }
 
@@ -185,9 +188,45 @@ button img {
     display: none;
 }
 
+.panj5 {
+    display: flex;
+    width: 90%;
+    gap: 20px;
+    margin-left: 60px;
+}
+
+.chapp5 {
+    width: 100%;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 1px solid rgb(103, 103, 103);
+}
+
+.chapp5s {
+    display: flex;
+    align-items: center;
+}
+
+.chapp5s img {
+    width: 10%;
+    height: 10%;
+    margin: 10px;
+}
+
+.chapp5 button {
+    padding: 13px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5EB083;
+    color: aliceblue;
+}
+
+
 @media(max-width : 500px) {
     body {
         background-color: #f88d36;
+        overflow-x: hidden;
     }
 
     .all,
@@ -339,6 +378,33 @@ button img {
 
     }
 
+    .panj5 {
+        display: block;
+        margin-left: 0px;
+    }
+
+    .chapp5 {
+        margin: 20px;
+        width: 90%;
+
+    }
+
+    .table1 {
+        margin: 20px;
+    }
+
+    .haq11 {
+        margin: 10px 0px;
+    }
+
+    .chapp5 button {
+        width: 80%;
+    }
+
+    .chapp5 button {
+        border: none;
+        margin-left: 10%;
+    }
 
 
 
