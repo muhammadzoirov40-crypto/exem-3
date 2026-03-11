@@ -423,6 +423,46 @@ button img {
 
 
 
+
+.boxh8 {
+    display: flex;
+    width: 60%;
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #c7c7c779;
+
+}
+
+.hasht8 {
+    margin: 30px 10px;
+    margin-left: 20%;
+}
+
+.boxh10 {
+    width: 100%;
+}
+
+.boxh8 {
+    width: 70%;
+}
+
+.boxh9 {
+    display: block;
+
+}
+
+.boxh8 img {
+    height: 10px;
+    margin-top: 4px;
+}
+
+.sabz {
+    color: #00b451;
+}
+
+
 @media(max-width : 500px) {
     body {
         background-color: #f88d36;
@@ -626,7 +666,8 @@ button img {
         width: 80%;
 
     }
-    .box2h71{
+
+    .box2h71 {
         width: 100%;
 
     }
@@ -663,6 +704,22 @@ button img {
     .haft7 {
         width: 95%;
     }
+
+    .hasht8 h1 {
+        text-align: center;
+    }
+
+    .hasht8 {
+        margin: 30px 10px;
+        margin-left: 1%;
+    }
+
+    .boxh8 {
+        width: 95%;
+        background-color: #ffffff;
+    }
+
+
 
 
 
