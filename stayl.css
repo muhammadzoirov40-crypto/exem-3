@@ -170,6 +170,15 @@ button img {
     height: 200px;
 }
 
+.table1 {
+    margin: 20px 70px;
+    margin-top: 50px;
+}
+
+.table1 p {
+    margin: 10px 0px;
+}
+
 .paq2 {
     margin-left: 150px;
 }
@@ -220,6 +229,110 @@ button img {
     border: none;
     background-color: #5EB083;
     color: aliceblue;
+}
+
+
+.table2 button {
+    padding: 10px 20px;
+    margin: 20px 5px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+.sha6 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 550px;
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+
+.chapsh6 {
+    padding: 30px;
+    grid-area: 1 / 1 /2 / 2;
+    background-color: rgba(30, 25, 36, 0.96);
+}
+
+.chapsh6 {
+    text-align: center;
+}
+
+.shs62 {
+    margin-top: 20px;
+}
+
+.ce6 {
+    margin-top: 80px;
+}
+.rostsh6{
+    padding: 40px;
+}
+
+.rh61,
+.rh61 button {
+    display: flex;
+    align-items: center;
+}
+.rh61 button{
+    background-color: rgb(35, 31, 31);
+    color: aliceblue;
+    padding: 4px 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 18%;
+}
+
+button img {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+.pp6{
+margin-top: 20px;
+font-size: 25px;
+}
+.rh62{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.box62 p,.box62 h3{
+    margin: 15px 0px;
+}
+.box62{
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+}
+.box63{
+    background-color:  #E5EDFA;
+
+}
+.box63 button{
+    background-color:  #5EB083;
+}
+.box64{
+    background-color:  #FFEDDF;
+    
+}
+.box64 button,.box65 button{
+    background-color:  #000000;
+    color: #E5EDFA;
+
+}
+.box65{
+    background-color: #EDFFF5;
+    
+}
+
+.box62 button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 40px;
 }
 
 
@@ -404,6 +517,12 @@ button img {
     .chapp5 button {
         border: none;
         margin-left: 10%;
+    }
+
+    .table2 button {
+        margin: 10px;
+        width: 40%;
+
     }
 
 
