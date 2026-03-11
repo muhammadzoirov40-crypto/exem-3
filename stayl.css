@@ -121,7 +121,7 @@ button img {
     margin: 5px 0px;
 }
 
-.ce {
+.ce,.paq2 {
     display: flex;
 }
 
@@ -151,6 +151,38 @@ button img {
 
 .c {
     margin-left: 150px;
+}
+
+.chor {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.chor4 {
+
+    margin-left: 10%;
+}
+
+.pos1 {
+    position: absolute;
+    right: 165px;
+    height: 200px;
+}
+.paq2{
+    margin-left: 150px;
+}
+.paq2 p{
+    margin: 0px 51px;
+}
+
+
+.chor4 img {
+    width: 15%;
+    margin: 10px;
+}
+
+.chort {
+    display: none;
 }
 
 @media(max-width : 500px) {
@@ -234,7 +266,7 @@ button img {
 
     .q1 {
         position: absolute;
-        top: 110%;
+        top: 105.5%;
         left: 70%;
     }
 
@@ -261,16 +293,18 @@ button img {
         margin: 10px;
     }
 
-    .tel3 img{
+    .tel3 img {
         margin: 0px;
         padding: 0px;
         margin-bottom: 90px;
     }
-    .tel4{
+
+    .tel4 {
         margin: 0px;
         margin-bottom: 300px;
     }
-    .tel5{
+
+    .tel5 {
         position: absolute;
         top: 248%;
         left: 0px;
@@ -287,6 +321,23 @@ button img {
         left: 10px;
     }
 
+    .chor4,
+    .paq2 {
+        display: none;
+    }
+
+    .chort {
+        display: block;
+        text-align: center;
+        width: 95%;
+
+    }
+
+    .chort img {
+        width: 95%;
+        margin: 20px;
+
+    }
 
 
 
