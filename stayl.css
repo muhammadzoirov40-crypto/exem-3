@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgba(251, 227, 196, 0.386);
+}
+
+.all,
+.box2a {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box2a p {
+    margin: 0px 15px;
+}
+
+.box1a img {
+    width: 300px;
+    height: 50px;
+}
+
+.all button {
+    display: flex;
+    width: 15%;
+    padding: 0px 15px;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    background-color: #5EB083;
+
+
+}
+
+button img {
+    width: 15%;
+    height: 50%;
+    margin: 0px 4px;
+    padding: 0px;
+}
+
+.chap1 {
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.chap1 p {
+    margin: 10px 0px;
+}
+
+.chap1b button,
+.chap1b {
+    display: flex;
+
+}
+
+.tel {
+    display: none;
+}
+
+.chap1b button {
+    display: flex;
+    width: 15%;
+    padding: 0px 15px;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    background-color: #FFBB8A;
+    margin-right: 20px
+}
+
+.pa3 {
+    color: #8a8a8a;
+}
+
+.rost1 img {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+}
+
+@media(max-width : 500px) {
+    body {
+        background-color: #f88d36;
+    }
+
+    .all {
+        display: none;
+    }
+
+
+    .tel {
+        display: flex;
+        width: 90%;
+        padding: 20px;
+        justify-content: space-between;
+
+    }
+
+    .tel button {
+        display: flex;
+        width: 55%;
+        padding: 0px 15px;
+        align-items: center;
+        border-radius: 30px;
+        border: none;
+        background-color: #5EB083;
+    }
+
+    .s1 {
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .rost1 img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .chap1 {
+        padding: 10px;
+        margin: 10px;
+        margin-top: 382px;
+    }
+
+    .chap1b {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .chap1b button {
+        width: 50%;
+        margin-left: 50%;
+        padding-left: 10px;
+        margin: 30px 0px;
+        background-color: #8a8a8a00;
+        color: aliceblue;
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .s2 {
+        width: 20px;
+    }
+
+    .b1{
+      justify-content: center;
+    }
+}
