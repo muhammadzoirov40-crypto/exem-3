@@ -46,6 +46,14 @@ button img {
     margin-left: 90px;
 }
 
+.sp1 {
+    color: #5EB083;
+}
+
+.chap1 h1 {
+    font-size: 50px;
+}
+
 .chap1 p {
     margin: 10px 0px;
 }
@@ -84,12 +92,74 @@ button img {
     height: 600px;
 }
 
+.du2 img {
+    width: 100px;
+    margin: 0px 10px;
+    margin-top: 120px;
+
+    box-shadow: 0px 0px 20px rgba(190, 190, 190, 0.422);
+}
+
+.s11 {
+    padding-left: 60px;
+}
+
+.du21 {
+    display: none;
+}
+
+.table {
+    margin: 40px 60px;
+}
+
+.table h1 {
+    margin: 20px 0px;
+    font-size: 40px;
+}
+
+.table p {
+    margin: 5px 0px;
+}
+
+.ce {
+    display: flex;
+}
+
+.chapce {
+    width: 40%;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.chapce h1 {
+    margin: 10px;
+}
+
+.ce1 {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.chapce p {
+    margin: 10px 0px;
+}
+
+
+.rostce img {
+    width: 350px;
+}
+
+.c {
+    margin-left: 150px;
+}
+
 @media(max-width : 500px) {
     body {
         background-color: #f88d36;
     }
 
-    .all {
+    .all,
+    .du2 {
         display: none;
     }
 
@@ -125,7 +195,7 @@ button img {
     .chap1 {
         padding: 10px;
         margin: 10px;
-        margin-top: 382px;
+        margin-top: 373px;
     }
 
     .chap1b {
@@ -148,7 +218,77 @@ button img {
         width: 20px;
     }
 
-    .b1{
-      justify-content: center;
+    .b1 {
+        justify-content: center;
     }
+
+    .du21 {
+        display: block;
+
+    }
+
+    .du21 img {
+        width: 27%;
+        margin: 10px;
+    }
+
+    .q1 {
+        position: absolute;
+        top: 110%;
+        left: 70%;
+    }
+
+    .chapce {
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .ce {
+        display: block;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .ce1 {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .rostce {
+        width: 90%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .tel3 img{
+        margin: 0px;
+        padding: 0px;
+        margin-bottom: 90px;
+    }
+    .tel4{
+        margin: 0px;
+        margin-bottom: 300px;
+    }
+    .tel5{
+        position: absolute;
+        top: 248%;
+        left: 0px;
+    }
+
+    .c {
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .tel2 {
+        position: absolute;
+        top: 175%;
+        left: 10px;
+    }
+
+
+
+
+
 }
