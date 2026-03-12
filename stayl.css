@@ -3,6 +3,7 @@
 }
 
 body {
+    overflow-x: hidden;
     background-color: rgba(255, 236, 210, 0.386);
 }
 
@@ -461,6 +462,20 @@ button img {
 .sabz {
     color: #00b451;
 }
+.nuh9{
+    display: flex;
+    background-color: #000000;
+    width: 95%;
+    color: #EDFFF5;
+    padding: 50px;
+    justify-content: space-around;
+}
+.boxn9 p,.boxn9 h2{
+    margin: 10px 0px;
+}
+.boxn9 img{
+    margin: 10px;
+}
 
 
 @media(max-width : 500px) {
@@ -718,7 +733,14 @@ button img {
         width: 95%;
         background-color: #ffffff;
     }
-
+   .nuh9{
+    width: 100%;
+    display: block;
+    padding: 0%;
+    padding-top: 20px;
+    text-align: center;
+   }
+   
 
 
 
